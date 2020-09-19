@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html {
+  font-family: arial, sans-serif;
+}
+body {
+  margin-left: 0;
+}
+#logo {
+  padding-top: 109px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 271px;
+  height: 92px;
+}
+#searchbar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 561px;
+  height: 44px;
+  border: 1px solid #eaeaea;
+  outline: none;
+  border-radius: 22px;
+}
+#searchbar:hover {
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+#button-area {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#google_search,
+#feeling_lucky {
+  display: inline-block;
+  background: #f2f2f2;
+  padding: 10px;
+  margin: 0px 5px 0px 5px;
+  border: none;
+  border-radius: 3px;
+}
+.btn-sign-in:hover {
+  text-decoration: none;
+}
+.btn-sign-in {
+  display: inline-block;
+  width: 5em;
+  text-decoration: none;
+  text-align: center;
+  background: #4387fd;
+  color: white;
+  border-radius: 2px;
+}
+.btn:hover {
+  text-decoration: underline;
+}
+.btn {
+  text-decoration: none;
+  color: gray;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navbar li {
+  font-size: 14px;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 14px;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.icon:hover {
+  opacity: 0.8;
+}
+.icon {
+  font-size: 1.8em;
+  opacity: 0.5;
+}
+#bottomnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#bottomnav li {
+  display: inline-block;
+  line-height: 28px;
+  padding: 14px 16px;
+}
